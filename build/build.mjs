@@ -213,19 +213,18 @@ function renderIndex() {
   const topicHtml = topics.map((t) => {
     const live = t.articles.filter(pub);
     if (!live.length) return '';
-    const files = live.map((a) => {
+    const files = live.slice().reverse().map((a) => {
       const lvl = a.level || 'beginner';
       return `        <li class="file" data-level="${lvl}">
           <div class="file-main">
-            <span class="path">${t.slug}/${esc(a.file)}</span>
-            <div class="file-row"><a class="file-title" href="${a.url}">${esc(a.title)}</a></div>
+            <a class="file-title" href="${a.url}">${esc(a.title)}</a>
             <p class="koan">${esc((a.koan || '').trim())}</p>
           </div>
           <span class="badge b-${lvl}">${lvl}</span>
         </li>`;
     }).join('\n');
     return `      <section class="topic">
-        <div class="folder"><span class="folder-path">${t.slug}/</span><h2>${esc(t.name)}</h2></div>
+        <div class="folder"><h2>${esc(t.name)}</h2></div>
         <p class="blurb">${esc(t.blurb)}</p>
         <ul class="files">
 ${files}
