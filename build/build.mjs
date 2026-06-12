@@ -261,7 +261,7 @@ ${CSS}
   .gh-foot{display:inline-flex;align-items:center;gap:6px;color:var(--ink-faint);text-decoration:none;transition:color .2s ease;}
   .gh-foot:hover{color:var(--ink);}
   .gh-foot svg{flex-shrink:0;}
-  .toggle{position:sticky;top:3.25rem;z-index:500;margin:30px 0 4px;padding:14px 0;background:linear-gradient(var(--paper) 70%,rgba(252,252,250,0));display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .toggle{margin:30px 0 4px;padding:14px 0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
   .toggle-label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
   .segs{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff;}
   .seg{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:lowercase;padding:7px 16px;border:none;background:transparent;color:var(--ink-faint);cursor:pointer;transition:all .15s ease;}
@@ -315,11 +315,9 @@ ${topicHtml}
     document.querySelectorAll('.file').forEach(function(f){f.style.display=(RANK[f.dataset.level]<=r)?'':'none';});
     document.querySelectorAll('.topic').forEach(function(t){var any=Array.prototype.some.call(t.querySelectorAll('.file'),function(f){return f.style.display!=='none';});t.style.display=any?'':'none';});
     document.querySelectorAll('.seg').forEach(function(s){s.classList.toggle('active',s.dataset.level===level);});
-    try{localStorage.setItem('fg-level',level);}catch(e){}
   }
   document.querySelectorAll('.seg').forEach(function(s){s.addEventListener('click',function(){applyLevel(s.dataset.level);});});
-  var saved='beginner';try{saved=localStorage.getItem('fg-level')||'beginner';}catch(e){}
-  applyLevel(saved);
+  applyLevel('advanced');
 </script>
 </body>
 </html>
