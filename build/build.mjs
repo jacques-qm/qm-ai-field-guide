@@ -187,7 +187,6 @@ ${HEADER}
     <h1>${esc(a.title)}</h1>
     <span class="badge b-${lvl}">${lvl}</span>
   </div>
-  <p class="summary">${summary}</p>
   <div class="body">
 ${bodyHtml}
   </div>
