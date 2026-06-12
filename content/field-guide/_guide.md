@@ -1,4 +1,4 @@
 ---
 title: "AI Field Guide"
-intro: "A working map of how AI systems actually work, written by the studio that builds them. No hype, no jargon, real depth. Pick your level and read the terrain."
+intro: "How AI works, written plainly by the studio that builds it. For people who would rather understand it than be sold on it."
 ---
