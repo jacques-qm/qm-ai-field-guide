@@ -9,7 +9,7 @@ summary: >-
   language. The same model, given clear instructions and the right context,
   produces a far better answer. Most of the quality gap lives here.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 faq:
   - q: Is prompting a real skill or a fad?
     a: >-
@@ -33,20 +33,20 @@ faq:
       example.
 ---
 
-Prompting is how you aim an AI system. You do not program a model; you instruct it. Vague in, vague out. Specific in, specific out.
+Prompting is how you aim an AI system. You are not programming the model, you are instructing it, and the quality of the instruction shows up directly in the quality of the result.
 
 ## Steering, not coding
 
-A prompt is plain language that sets the task, the standard, and the context. The model is capable. Prompting is how you point that capability at the thing you actually want, instead of the nearest plausible thing.
+A prompt is plain language that says what you want done, what a good result looks like, and what the model needs to know to get there. The model is already capable. Prompting is how you point that capability at the specific thing you want, instead of the nearest plausible-looking thing it could produce on its own.
 
 ## Context is most of it
 
-The single biggest lever is giving the model the right information: the relevant document, an example of a good result, the constraint that matters. Most "the AI got it wrong" moments are really "the AI was not told."
+The biggest lever by far is the information you hand the model: the document that is actually relevant, an example of the output you want, the one constraint that cannot be broken. A large share of "the AI got it wrong" is really "the AI was never told." Fix the context before you fuss over the wording.
 
-## Show, do not just tell
+## Show, don't only tell
 
-Examples beat adjectives. "Write it like this," with a sample, outperforms "write it professionally." A couple of good examples teach the model your standard faster than a paragraph describing it.
+A sample does more than a description. "Write it like this," with an example attached, gets you closer than "write it professionally" ever will. Two or three good examples teach the model your standard faster than a paragraph trying to name it.
 
 ## Where prompting ends
 
-Prompting steers; it does not fix everything. If the task needs a tool the model does not have, or a fact it was never given, no prompt will conjure it. Know the line between steering the model and changing the system around it.
+Prompting steers; it cannot supply what isn't there. If the task needs a tool the model doesn't have, or a fact it was never given, no amount of phrasing will produce it. Part of the skill is noticing when you've stopped steering the model and started needing to change the system around it.

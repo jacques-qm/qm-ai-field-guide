@@ -9,7 +9,7 @@ summary: >-
   together as one system. You reach for it when a single agent, with a single
   context, can no longer hold the whole job.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 faq:
   - q: Do I need multiple agents?
     a: >-
@@ -33,20 +33,20 @@ faq:
       Complexity is a cost, not a feature.
 ---
 
-Orchestration is the coordination layer that gets several agents working together as one system. It is what you build when one agent stops being enough.
+Orchestration is the coordination layer that makes several agents behave like one system. You build it when a single agent, holding a single context, can no longer carry the whole job.
 
-## When one agent is not enough
+## When one agent stops scaling
 
-A single agent works until the task gets too big for one context or too varied for one set of tools. Then you split it: a researcher, a drafter, a checker. Something has to coordinate them. That something is orchestration.
+One agent is the right default, and it holds longer than most people expect. It breaks on two axes: when the task no longer fits in one context window, and when it spans work too varied for one set of tools and one system prompt to handle well. At that point you decompose the job — a researcher, a drafter, a checker — and something has to route work between them and reconcile what comes back. That routing is orchestration.
 
-## The common shapes
+## The shapes worth knowing
 
-A few patterns recur. A **pipeline** hands work from one agent to the next. A **fan-out** runs several in parallel and merges the results. A **manager** delegates to workers and assembles their output. A **loop** has a maker and a checker trade passes until the work is good.
+Most real systems are combinations of four patterns. A **pipeline** passes work down a fixed sequence of stages. A **fan-out** runs agents in parallel and merges their outputs. A **manager** holds the plan, delegates pieces to workers, and assembles the result. A **loop** pairs a maker and a checker that trade passes until the output clears a bar. Pick by the shape of the work, not the org chart you wish you had.
 
-## The cost of coordination
+## Coordination is not free
 
-More agents mean more tokens, more places to fail, and more error to propagate. A multi-agent system can outperform a single one, and it can also just be slower and more expensive. Use the lowest level of complexity that reliably meets the requirement.
+Every added agent multiplies tokens, latency, and the number of places a run can go wrong, and errors compound as they pass from one agent to the next. A coordinated team sometimes beats a single strong agent and sometimes just spends more to reach the same answer more slowly. Treat each layer of coordination as a cost to justify with a measured win, not a default you reach for because multi-agent sounds advanced.
 
-## Keeping control across agents
+## Control across many agents
 
-The gate does not disappear when there are many agents; it matters more. One harness, one off switch, scoped permissions per agent, and a human at the point where work leaves the building. Orchestration coordinates the labor. It does not change who decides.
+More agents make the gate matter more, not less. Keep one harness over the whole system, one off switch, permissions scoped per agent to the minimum each one needs, and a human at the point where anything leaves the building. Adding agents changes how the labor is divided. It should not change who approves what ships.

@@ -4,9 +4,9 @@ level: intermediate
 order: 3
 koan: How to tell a system that works from one that only works on stage.
 summary: >-
-  A demo is a system working once, on chosen inputs, in front of you. A
-  capability is a system working repeatedly, on your inputs, when you are not
-  watching. Telling them apart is most of buying AI well.
+  A demo is a system working once, on chosen inputs, while you watch. A real
+  capability keeps working on your inputs, at volume, when nobody is watching.
+  Telling them apart is most of buying AI well.
 faq:
   - q: How do I tell a demo from a real capability?
     a: >-
@@ -29,24 +29,24 @@ faq:
       the loop. Measurement is the difference between a capability and a
       confident demo.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-A demo is a system working once, on chosen inputs, in front of you. A capability is a system working repeatedly, on your inputs, when you are not watching.
+A demo shows you a system working once, on inputs someone picked, while you watch. A capability is that same system still working on your inputs, at your volume, on a day when no one is paying attention. Most of buying AI well is learning to tell which one you're being shown.
 
-## The demo is the easy case
+## Why the demo is the easy part
 
-Anything looks magical on a curated example. The hard part is not the happy path; it is the messy middle: your weird data, the exception, the third Tuesday when something is off. Demos skip all of that on purpose.
+Almost anything looks impressive on a hand-picked example. The work that matters isn't the clean case you're shown; it's everything the clean case leaves out — the malformed input, the unusual request, the third Tuesday when an upstream system is behaving strangely. A demo is built precisely to stay out of that territory, which is part of why it looks so smooth.
 
-## Ask for the failure cases
+## Ask how it fails
 
-The fastest tell: ask how it fails, and what happens when it does. A real capability has honest answers, error rates, edge cases, fallbacks. A demo changes the subject.
+The quickest way to see through a demo is to ask what happens when it goes wrong: how often, in what way, and what the system does next. A team with a real capability can answer that with error rates, known edge cases, and fallbacks they've already built. A team with only a demo will move the conversation somewhere else, because failure is the part they arranged not to show.
 
-## Run it on your reality
+## Run it on your own reality
 
-Put your actual inputs through it, at your actual volume, and watch what breaks. A pilot on real work tells you in a week what a polished deck never will.
+Put your real inputs through it, at something near your real volume, and watch where it strains. A week of that on actual work tells you what no amount of polished presentation can, and it costs far less than finding out after you've signed.
 
-## Capability is measured, not shown
+## A capability comes with numbers
 
-Real systems come with numbers: how often it is right, how it is checked, where a human stays in the loop. If there is no measurement, you are being shown a demo and told it is a capability.
+A real one arrives with measurement attached: how often it's right, how that gets verified, and where a person stays in the loop. When there's nothing to measure — no rate, no eval, no check — you're looking at a demo, whatever it's being called.

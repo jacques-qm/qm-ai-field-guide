@@ -32,24 +32,24 @@ faq:
       tests, and gates are the real build now, more than any single feature the
       agents produce.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-A software factory is the production system around the agents: harnesses, tools, tests, and human review that turn intent into shipped software, repeatedly. Building it is the work now.
+A software factory is the production system around the agents: the harness, the tools, the tests, and the human review that together turn an intent into shipped software, again and again. Designing that system is most of the work now.
 
 ## From craftsman to factory
 
-The old unit of production was a developer writing code. The new unit is a system that produces code: agents inside a harness, with tools, tests, and people at the gates. You stop hiring typists and start building the line.
+The thing you used to scale was a developer writing code. The thing you scale now is a system that produces code — agents running inside a harness, with tools, tests, and people positioned where it counts. In practice the shift is concrete: you spend less effort hiring people to type, and more effort building the line they would have typed on.
 
-## What is in the factory
+## What's in it
 
-Agents that draft. A harness that gives them tools, memory, and limits. Tests that catch what is wrong automatically. Human review at the points that matter. Each piece is ordinary engineering; together they turn intent into shipped software.
+An agent, or several, to draft the work. A harness that hands them tools, holds their memory, and sets their limits. A test suite that catches bad output automatically, before a person ever looks. Human review placed where a wrong call would actually hurt. None of these parts is exotic on its own; the engineering is in how they fit together into something that reliably ships.
 
 ## Reliability is the point
 
-A factory's value is not speed alone, it is repeatability. The same quality, again and again, without a hero. That comes from the checks around the agents, not the cleverness inside them.
+What a factory buys you is less about raw speed than about repeatability — the same quality on the hundredth run as on the first, without it hanging on one exceptional person being in the room that day. That reliability comes from the checks built around the agents, not from how clever the agents happen to be on a given morning.
 
 ## Building it is the job
 
-Designing the harness, the tests, and the gates for your work is the real engineering now. The model is bought. The factory that makes it safe and reliable to point at production is built.
+The harness, the tests, and the gates, designed for your particular work, are the real engineering now. You buy the model off the shelf. What you build is the system that makes it safe and dependable to aim at production.

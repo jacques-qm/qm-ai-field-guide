@@ -29,24 +29,24 @@ faq:
       systems that confirm it works. That is where value concentrates when
       production gets cheap.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-When software gets cheap to make, the scarce things flip. Output stops being the constraint, and taste, direction, and trust become the bottleneck.
+When software gets cheap to make, the things that are scarce change, and so do the things worth paying for. Output stops being the limit. What becomes the limit is taste, direction, and trust.
 
 ## The old constraint is gone
 
-Software used to be expensive because people had to type it. That cost is collapsing. When the constraint disappears, everything downstream of it has to be rethought, because it was all shaped around a scarcity that no longer exists.
+Software was expensive mostly because people had to type it, line by line, and that cost is now collapsing. When the constraint that shaped an industry goes away, everything arranged around it has to be reconsidered — budgets, team shapes, where time goes, what a senior person is even for. Most of those arrangements quietly assumed a scarcity that no longer holds.
 
-## More output, same judgment
+## More output, the same judgment
 
-Cheap production means far more gets built. But the human capacity to decide what is worth building, and to tell good from bad, did not get cheaper. The flood is easy; the steering is not.
+Cheap production means a lot more gets built. The human ability to decide what's worth building, and to tell a good result from a plausible-looking bad one, did not get any cheaper at the same time. So the volume climbs while the capacity to steer it stays flat, and the steering becomes the part under strain.
 
 ## The bottleneck moves up
 
-Direction and quality control become the scarce resources. Knowing what to build, saying no, and trusting that it works are now the expensive, valuable parts, precisely because output is not.
+Direction and quality control turn into the scarce resources, for the plain reason that output no longer is. Knowing what to build, having the discipline to say no to most of it, and being able to trust that what shipped actually works — these are now the expensive parts of the job, and the places a team is most likely to come up short.
 
-## Spend where it is scarce
+## Spend where it's scarce
 
-The leverage moves to taste and judgment. Pay for the people and systems that decide and verify, not the ones that type. That is where the new economics put the value.
+Put the investment where the scarcity moved: the people who decide what's worth doing, and the systems that verify it works, rather than the raw capacity to make more. When producing things is cheap, choosing well and checking carefully are what hold their value.

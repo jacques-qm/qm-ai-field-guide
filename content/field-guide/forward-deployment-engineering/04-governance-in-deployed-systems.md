@@ -30,24 +30,24 @@ faq:
       the organization passes through a human first. That gate is policy baked
       into the system, not a toggle.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-A deployed AI system stays under control through three things built in from the start: an off switch, scoped permissions, and a full audit trail. Governance is architecture, not a memo.
+A deployed AI system stays under control through three things, and they only work if they were built in from the start: an off switch, scoped permissions, and a complete audit trail. Governance here is a property of the architecture, not a paragraph in a policy doc.
 
 ## An off switch
 
-The whole system runs inside a harness. One switch pauses everything, instantly. Not a feature request, not a deploy, a switch. If you cannot stop it in one move, it is not governed.
+Because the whole system runs inside one harness, there is a single way to stop all of it — every agent, every pending action — at once. The test is blunt: if halting the system takes a deploy, a code change, or a call to three different teams, you don't have an off switch, you have a hope. One harness as the only path to action is what keeps the stop a single move.
 
 ## Scoped permissions
 
-The agent can touch only the systems and actions you have explicitly granted, with the permissions you set. Least privilege, by default. What it cannot reach, it cannot break.
+The agent reaches only the tools and actions you have explicitly granted, at the access level you set, and nothing else exists for it to use. Default to least privilege: grant a capability because a task needs it, not because it might be handy later. That is what bounds the blast radius when something goes wrong — and with a non-deterministic actor, build as though it eventually will.
 
 ## A full audit trail
 
-Every draft, every approval, every action is logged and reviewable after the fact. You can always answer what happened and who approved it. The record is not optional; it is part of the system.
+Every draft, approval, and action is logged and reviewable after the fact, so you can reconstruct exactly what happened and who signed off on it. Treat the log as part of the system, not a debugging nicety. The first serious question after an incident is always what the system did, and the second is who approved it.
 
 ## The human gate as policy
 
-Anything that leaves the organization passes through a human first. As trust builds, routine low-risk actions get pre-approved, but the gate is policy, not a setting someone forgot. Control survives turnover, scale, and a bad day.
+Anything leaving the organization passes a human first. You can pre-approve specific low-risk actions as trust grows, but the gate is encoded in the system, not left to whoever remembers to be careful. Built this way, control doesn't ride on the current headcount, the current scale, or anyone having a good day.

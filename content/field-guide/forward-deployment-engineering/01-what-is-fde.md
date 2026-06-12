@@ -6,9 +6,9 @@ koan: >-
   The engineers come to you, build inside your real systems, and stay until it
   works.
 summary: >-
-  Forward deployment means the engineers come to you, build inside your real
-  systems, and stay until it works. Not a report. Not advice. Working software,
-  shipped where you actually operate.
+  Forward deployment means the engineers come to you and build inside your real
+  systems, staying until the software actually runs there. You get working
+  software in your environment, not a slide deck about what to build.
 faq:
   - q: How is this different from regular consulting?
     a: >-
@@ -30,24 +30,24 @@ faq:
       The engineer owns the outcome, not just the advice. Success is the thing
       working in production, not a document about what could work.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-Forward deployment means the engineers come to you, build inside your real systems, and stay until it works. Not a report. Not advice. Working software, shipped where you operate.
+Forward deployment means the engineers come to you, build inside your real systems, and stay until the thing works. What you have at the end is software running in your environment, not a document describing software someone else still has to build.
 
-## The problem with advice
+## The trouble with advice
 
-Most consulting studies your problem, writes recommendations, and leaves. The deck is correct and nothing changes, because the hard part was never the advice. It was building the thing, inside your messy real systems, and getting it over the line.
+A lot of consulting studies your problem, writes up what you should do, and leaves. The recommendations are usually sound, and usually nothing changes, because the recommendation was never the hard part. The hard part was building the thing inside your actual systems, with your actual data, and getting it across the line while real people depend on it.
 
-## What forward deployment means
+## What a forward deployed engineer does
 
-A forward deployed engineer embeds with your team and works in your environment, not a sandbox. They learn how the business actually runs, build against your real data and tools, and own the outcome instead of handing off a plan. The deliverable is something that works on Monday.
+They work inside your environment instead of a demo. They sit close enough to learn how the business really runs, build against your real data and tools, and take responsibility for whether the result works — not just whether the plan reads well. When they're done, you have something you can use that morning.
 
-## How it works in practice
+## How it goes in practice
 
-It starts narrow. One workflow, one painful, repeated task. A working version ships fast, you use it, and it gets sharpened against reality. Trust and scope grow together, one shipped result at a time.
+It starts small. One workflow, one task that's painful and happens over and over. A rough working version ships quickly, you put it to use, and it gets sharpened against whatever actually breaks. As it earns trust, the scope widens, one shipped piece at a time.
 
-## Why it ships outcomes
+## Why it produces results instead of reports
 
-The person who understands the problem is the same person building the solution, with nothing lost in translation. No handoff, no waiting on a separate team. That tight loop is why forward deployment delivers what advice cannot.
+The person who understands the problem is the same person building the fix, so nothing is lost passing it between heads. No handoff to a separate team, no waiting, no game of telephone. That short distance between understanding and building is what lets the work land.

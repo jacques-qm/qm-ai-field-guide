@@ -29,24 +29,24 @@ faq:
       When output is cheap, direction and quality control become the scarce,
       valuable things.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-When agents do the typing, software gets cheaper and faster to make. The bottleneck moves, the economics change, and the unit of production stops being the lone developer.
+When agents do the typing, software gets cheaper and faster to make. The slow part of the work moves somewhere new, the economics shift, and a single developer at a keyboard stops being the thing that limits how much gets built.
 
 ## What changed
 
-For decades the cost of software was human time spent typing it. Models that can write, read, and fix code change that line item. A small team with the right setup now ships what used to take a large one, because the typing is no longer the constraint.
+For decades, the cost of software was mostly human time spent typing it out. Models that can write, read, and fix code change that line on the budget. A small team with the right setup now ships what used to need a large one, because writing the code is no longer the part that holds everything up.
 
 ## The software factory
 
-The new leverage is not one clever programmer. It is a factory: a system of agents, harnesses, tests, and human review that turns intent into shipped software, reliably and repeatedly. Building that factory is the real work now.
+The leverage isn't one brilliant programmer anymore. It's the whole production system around the work: agents that draft the code, the harness that runs them, the tests and human review that decide whether what they produced is any good. Putting that system together — the factory — is where the real engineering has moved.
 
 ## The new economics
 
-When making software gets cheap, the scarce things change. Taste, judgment, knowing what to build, and trusting that it works become the bottleneck, not raw output. Direction matters more, not less.
+Once making software is cheap, the scarce things are different ones. Knowing what's worth building, and being able to trust that the result actually works, become the real constraints. When anyone can generate plenty of output, deciding what should exist and holding the quality line is worth more, not less.
 
 ## What stays human
 
-Deciding what is worth building. Owning the result. Keeping the gate where it counts. The factory makes the typing cheap. It does not make the judgment free. That is where the people, and the value, move to.
+A few things don't get cheaper: deciding what's worth building, owning whether it works, and keeping a person at the points that carry real risk. The factory makes the typing cheap. It leaves the judgment exactly where it was, with people, which is also where the value collects.

@@ -4,9 +4,9 @@ level: intermediate
 order: 3
 koan: 'Start narrow, ship fast, grow trust and scope one shipped result at a time.'
 summary: >-
-  A forward deployment engagement starts narrow, ships a working version fast,
-  and grows scope one proven result at a time. Trust is earned in production,
-  not promised in a kickoff.
+  A forward deployment engagement starts narrow, ships a working version within
+  weeks, and grows scope one proven result at a time. Trust gets earned in
+  production rather than promised up front.
 faq:
   - q: How small is the first piece?
     a: >-
@@ -28,24 +28,24 @@ faq:
       Yes. The human gate is built in from the first workflow. The agent drafts
       and waits; you approve what ships. Control is not a later phase.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-A forward deployment engagement starts narrow, ships a working version fast, and grows one proven result at a time. Trust is earned in production, not promised in a kickoff.
+A forward deployment engagement starts narrow and ships something that works within weeks, then grows one proven result at a time. The trust to take on more is earned by what's already running, not by what got promised at the start.
 
 ## Start with one painful thing
 
-Pick a single workflow that is repeated, painful, and bounded. Not the whole transformation. One task the team would be glad to never do by hand again. That is where the first version goes.
+The first piece is a single workflow: repeated, genuinely painful, and bounded enough to finish. Not a transformation program — one task the team would be relieved to stop doing by hand. That task is where the first working version goes.
 
 ## Ship something that works, early
 
-Within weeks there is a working version in your hands, not a roadmap. You use it on real work. It is rough, then it gets sharp, because it is being corrected against reality instead of a spec.
+Within a few weeks you have a rough working version in your hands rather than a roadmap describing one. You run it on real work. It improves quickly, because it's being corrected against what actually happens instead of against a document someone wrote in week one.
 
 ## Grow scope with trust
 
-Each shipped result earns the next. The narrow win becomes two, then a system doing real, load-bearing work. Scope follows trust, and trust follows things that work.
+Each shipped result earns the next slice of scope. One narrow win becomes two, and then a system carrying real, load-bearing work. The order matters here: scope expands because things keep working, not on a timeline drawn up before anything shipped.
 
 ## The human stays the gate
 
-Throughout, you stay in control of what ships. The agent drafts; you approve. Governance is built in from the first workflow, not bolted on once the system is too big to stop.
+Through all of it, you decide what ships. The agent drafts and waits; you approve. The human gate goes in with the very first workflow, while the system is small and easy to reason about, rather than getting retrofitted once it has grown too large to pause safely.

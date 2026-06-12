@@ -11,7 +11,7 @@ summary: >-
   system against real tasks; the tuning loop is how you use that grade to make
   it better on purpose, instead of by vibes.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 faq:
   - q: What exactly is an eval?
     a: >-
@@ -34,20 +34,20 @@ faq:
       drift. The whole value is catching a regression before your users do.
 ---
 
-You cannot improve what you do not measure. Evals are how an AI system gets better on purpose instead of by feel.
+An eval is a graded test for an AI system: real tasks, known-good outcomes, run and scored. It is the instrument that lets you change a system on purpose instead of by feel. Once a system is doing real work, by feel stops being good enough.
 
-## Why vibes do not scale
+## Why feel stops working
 
-Early on you judge a system by feel: it seems good today. That breaks the moment it is doing real work. You need a way to ask, concretely, did it get better or worse? That is what an eval is: a graded test the system has to pass.
+In the first week you judge a system by reading its output: this looks right today. That holds until the volume rises and the cases get strange, and then no one can keep the whole picture in their head. The question you actually need answered is narrow and repeatable: compared to yesterday, did this change make the system better or worse? A pile of impressions can't answer that. A scored test can.
 
-## What an eval is
+## What goes in the set
 
-A set of real tasks with known-good outcomes, run against the system, and scored. Some scoring is exact: did it pull the right number? Some is judged: was the reply good? Either way you get a number you can track instead of an impression you can argue about.
+A representative set of real tasks, each with an outcome you can check. Some checks are exact — the right figure, valid JSON, a call that passes. Many are judged against a rubric, often by a model scoring the output, with humans auditing the judge so its biases don't quietly set your bar. Two things make or break the set: that it resembles production traffic, and that it includes the tail cases, because the tail is where systems actually break.
 
 ## The tuning loop
 
-Measure, change one thing (the prompt, the tools, the model, the memory), measure again. Keep what moved the number; drop what did not. It is the same loop the agent runs on a task, run on the system itself. Memory is how it compounds: your edits become its standing instructions.
+Measure, change one variable — the prompt, the tools, the model, the memory — measure again, keep what moved the number, drop what didn't. It is the agent's own act-and-check loop turned on the system that runs it. The discipline is changing one thing at a time; change three and a better score won't tell you which one earned it.
 
 ## Where humans stay
 
-Evals do not remove judgment; they aim it. You decide what good means and which failures matter. The system tells you, honestly, how often it is hitting that bar. That is the difference between a system you trust and one you only hope about.
+Evals don't replace judgment, they point it. You decide what good means, which failures are unacceptable, and where the bar sits. The system reports, against that definition, how often it clears it. Watch one number above the rest: performance on a held-out set the system was never tuned against. A score that only climbs on the cases you optimized for is measuring your overfitting, not your quality.

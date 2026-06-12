@@ -11,7 +11,7 @@ summary: >-
   wrapped around it: the tools, the memory, and the limits. It is where the
   system can do things, and where it can be told not to.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 faq:
   - q: Why not just trust the model?
     a: >-
@@ -36,20 +36,20 @@ faq:
       what gets built and shipped.
 ---
 
-A model can write the words "send this email." It cannot send one. The harness is what closes that gap, and it is where the real engineering lives.
+A model can write the words "send this email." It cannot send one. The harness is the code that closes that gap, and it is where most of the engineering now happens.
 
 ## What the harness adds
 
-The harness is the code that connects the model to real tools and decides, for each one, whether the model may use it. The model proposes. The harness disposes. Without it you have a clever text generator. With it you have a system that can do work.
+The harness wires the model to real tools and decides, tool by tool, whether the model is allowed to use them. The model can only suggest an action by writing it out; the harness is what actually carries it out, or refuses. Without it, the model is a fluent text generator with no hands. The harness gives it hands, and decides where those hands are allowed to reach.
 
 ## Tools
 
-Tools are the things the agent can do: look up a document, read a message, draft a reply, fill a form, run a workflow. The model asks; the harness performs, but only the tools you have granted, with only the permissions you set.
+Tools are the concrete things the agent can do: look up a document, read a message, draft a reply, fill in a form, start a workflow. The model requests one by name and the harness runs it — but only the tools you have granted, with only the permissions you have set. A tool the harness doesn't expose is one the model cannot reach, whatever it writes.
 
 ## Memory
 
-A bare model forgets everything between turns. The harness gives it memory: what happened last time, what you approved, your standing instructions. That is how a system gets better with use instead of starting from zero every morning.
+A bare model forgets everything the moment a turn ends. The harness is what gives it memory: what happened last time, what you approved, the instructions you've left standing. Curated well, that memory is how a system improves with use instead of waking up blank every morning. Curated badly — everything dumped in at once — it just slows the system down and crowds out what matters.
 
 ## Limits and the off switch
 
-The harness is where control lives. Scoped permissions, spending caps, the human gate, and one switch that pauses everything, instantly. The model is powerful and indifferent. The harness is what makes it safe to point at real work.
+Control lives in the harness, not in the model. Scoped permissions, spending caps, the human gate, an audit log, and a single switch that halts everything at once. This matters because the model has no sense of consequences; it will write a reckless instruction as readily as a safe one. Keeping the limits in the harness means safety never rests on the model choosing to behave.

@@ -31,24 +31,24 @@ faq:
       every new tool and vendor decision, which keep coming. The literacy keeps
       paying off.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-AI literacy across a team is not everyone learning to code. It is a shared, accurate mental model, so decisions get made with judgment instead of hype or fear.
+AI literacy across a team isn't about everyone learning to code. It's about everyone working from the same accurate picture of what these systems are, so decisions get made on judgment rather than on hype, fear, or whoever happened to be loudest in the room.
 
-## Shared model, not shared expertise
+## A shared model, not shared expertise
 
-You do not need everyone to be an engineer. You need everyone working from the same accurate picture: what these systems do, where they fail, where a human stays in the loop. A common model is what makes good group decisions possible.
+The goal isn't to turn a team into engineers. It's to get them operating from one common picture: what these systems can do, how they fail, where a person needs to stay in the loop. Group decisions are only as good as the model the group shares, and when half the room is picturing something different from the other half, the disagreement usually isn't about the real tradeoff. It's two incompatible mental models nobody has reconciled.
 
-## Where the gaps cause damage
+## Where the gaps do damage
 
-When literacy is uneven, the loudest or most fearful voice wins. Teams over-trust a demo, ban a useful tool, or buy the wrong thing, all from missing the same basic picture. The cost is decisions, not just confusion.
+Uneven literacy doesn't stay quiet; it surfaces as bad calls. One person over-trusts a polished demo, another wants to ban a genuinely useful tool out of vague dread, a third signs off on the wrong purchase — and each is reasoning correctly from a wrong picture. The asymmetry is the dangerous part: a team where a few people are calibrated and the rest aren't tends to defer to confidence instead of accuracy, which is exactly backwards.
 
-## Teach the model, then the judgment
+## Teach the model, then practice the judgment
 
-Start with the four parts and the failure modes. Then practice on real calls: is this a capability or a demo, where should a human gate sit, what is this likely to cost. Literacy is the model plus the reps.
+Start with the parts and the failure modes; that's the declarative knowledge everyone needs. But literacy that sticks comes from reps on real decisions: is this a capability or a demo, where does the human gate belong, what will this actually cost to run at volume. A model explained once is forgotten. A model applied to ten real calls becomes the way the team thinks.
 
 ## It compounds
 
-A team that shares the mental model decides faster and more calmly, and gets better at it. The literacy pays off every time a new tool, vendor, or decision shows up, which is constantly.
+A team holding a shared model decides faster and with less drama, and the edge grows over time. New tools, new vendors, and new decisions arrive constantly, and each lands on a group that already has a frame to fit it into rather than starting the argument from scratch. That is why literacy is worth treating as infrastructure, not a one-time training slot.

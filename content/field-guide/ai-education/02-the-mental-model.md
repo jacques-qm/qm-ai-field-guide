@@ -31,24 +31,24 @@ faq:
       The mental model, what to expect and what to check, is the part that pays
       off.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-The mental model you actually need for AI is small. A model predicts text, a harness gives it tools and limits, a loop does the work, and a human stays at the gate.
+The mental model you actually need for AI is small enough to hold in your head. There's a model that predicts text, a harness that gives it tools and limits, a loop that puts it to work, and a person at the gate who approves what goes out. Four parts. Get those straight and most of the confusion around AI quiets down.
 
-## Four parts, not a mystery
+## The four parts
 
-A model predicts the next word. A harness gives it tools, memory, and limits. A loop runs it until the job is done. A human approves what ships. That is the whole picture. Everything else is detail hanging off those four hooks.
+The model is the thing that predicts the next piece of text; on its own, that is all it does. The harness is the code around it that gives it tools to use, memory to keep, and limits it can't cross. The loop is the model running over and over — try a step, check the result, try again — until the work is finished. The gate is you, or someone, approving what actually leaves. Almost everything else you'll read about AI hangs off one of those four.
 
-## What it can and cannot do
+## What it can and can't do
 
-It can read, draft, summarize, and plan, fast and tirelessly. It cannot decide what matters, take an action you did not allow, or know it is wrong. Keep that line clear and you will predict its behavior.
+It can read, draft, summarize, and plan, quickly and without getting tired. What it can't do is decide what actually matters, take an action nobody granted it, or notice on its own that it's wrong. Keep that line in mind and the behavior stops being surprising; you'll usually know in advance which side of it a given task falls on.
 
 ## Where it fails
 
-It makes things up that sound right. It has no judgment about consequences. It is frozen at its training cutoff unless given a tool. None of these are dealbreakers; they are the reasons the harness and the human gate exist.
+It will state something false as confidently as something true, because it has no inner sense of which is which. It has no feel for consequences. And unless you give it a tool to look things up, what it knows stops at the day its training ended. None of these are reasons to avoid it. They are the exact reasons the harness and the human gate exist in the first place.
 
-## Why the model is enough
+## Why this is enough
 
-You will not train one, so you do not need the internals. You need to know what to expect, what to check, and where to keep a hand on the wheel. That is a mental model, and it is enough to make good decisions.
+You're not going to train a model, so the internals aren't your problem. What you need is a feel for what to expect from one, what to double-check, and where to keep a hand on the wheel. That is the whole mental model, and it's plenty to make good decisions with.

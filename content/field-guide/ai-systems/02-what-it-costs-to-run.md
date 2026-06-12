@@ -11,7 +11,7 @@ summary: >-
   words it writes, at a rate the provider sets. Most tasks cost cents, and the
   meter is predictable.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 faq:
   - q: What is a token?
     a: >-
@@ -34,20 +34,20 @@ faq:
       reading. The meter does not change; the volume does.
 ---
 
-The cost of running an AI agent is simple to picture, and that is the point. It is a meter, not a mystery.
+Running an AI agent costs money, and you can see exactly where it goes. You pay for text. Every time the agent reads something or writes something, that text gets counted and billed at a set rate. For most tasks the total comes to a few cents.
 
-## The meter
+## What you're paying for
 
-Tokens in, plus tokens out, times a rate, equals the cost. **Tokens in** is everything the agent reads: your request, emails, documents, context. **Tokens out** is everything it writes: drafts, documents, its own working notes. The **rate** is a price per unit of text, set by the AI provider. The result is usually cents per task.
+Two things: the text going in and the text coming out. Going in is everything the agent reads — your request, plus any emails, documents, or background it needs to do the job. Coming out is everything it writes — the answer, any files it produces, and the notes it makes to itself as it works. The provider charges a small fixed price per chunk of text in each direction. Add those up and you have the cost of the task.
 
-## Why it is predictable
+## Why the bill doesn't surprise you
 
-Because every action is just text in and text out, you can estimate a task before it runs and cap what it is allowed to spend. There are no surprise invoices. There is a meter you can read.
+The whole job is text in and text out, nothing hidden. That means you can estimate a task before it runs, and you can set a hard ceiling it is not allowed to pass. You are watching a meter, and you can read it.
 
-## What makes a task cost more
+## What makes one task cost more than another
 
-More context, more steps, more tools. A quick reply is cheap. A multi-step job that reads long documents and calls several tools costs more, because it moves more words through the meter. Same rate, bigger reading.
+Volume. A one-line question is nearly free. A job that reads three long contracts, calls a few tools, and works through several steps will cost more, because much more text passes through it. The price per chunk stays the same. The amount of text is what moves.
 
-## Metered, and capped
+## You set the ceiling
 
-You set the ceilings. A single task, a day, or a whole project can each carry a spending limit the agent cannot cross. The cost is not just visible, it is governed, the same way every other action the agent takes is governed.
+The limits are yours. A single task, a day, or a whole project can each carry a cap the agent cannot exceed. So the cost stays under your control, governed the same way as everything else the agent is allowed to do.

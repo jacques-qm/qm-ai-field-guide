@@ -5,9 +5,9 @@ order: 1
 status: published
 koan: 'A model, a harness, a loop, and a prompt. The four parts of every AI system.'
 summary: >-
-  An AI system is a model wrapped in a harness, run in a loop, steered by
-  prompts. Four moving parts. Name them and the magic goes away; ordinary
-  engineering shows up.
+  An AI system is four parts: a model that predicts text, a harness that lets
+  it act, a loop that puts it to work, and the prompts that steer it. Most
+  confusion about AI is just not knowing which part you mean.
 date: '2026-06-11'
 updated: '2026-06-11'
 faq:
@@ -32,24 +32,26 @@ faq:
       and repeats. An agent is a model put to work inside a harness.
 ---
 
-At the center of every AI system is a model. Give it words and it predicts what comes next, one piece at a time. That is the whole trick. The model knows a great deal and, on its own, decides nothing and does nothing.
+Start with the model. You hand it some text and it continues that text, a piece at a time, choosing what is most likely to come next from everything it was trained on. On its own, that is all it does. It produces words. It cannot click a button, send a message, or look anything up. Whatever an AI system does beyond writing, some other part is doing.
 
-## The model is the engine
+So an AI system is really four parts working together.
 
-A model is trained on a vast amount of text and code until it is good at one thing: predicting the next piece of text. Everything it appears to do follows from that. It is powerful and indifferent. It will draft a brilliant reply or a confident mistake with exactly the same energy.
+## The model
 
-## The harness is the body
+A model is what you get when you train a program on an enormous amount of text and code until it becomes very good at one narrow task: predicting the next piece of text. Everything it seems to know is a byproduct of that. It carries no sense of whether it is right. A correct answer and a confident wrong one arrive the same way, in the same steady tone. Hold onto that. Most mistaken ideas about AI come from forgetting it.
 
-A raw model is just text in, text out. The harness is the software wrapped around it. It gives the model tools to use, memory to keep, and limits it cannot cross. The model can write the words "send this email." The harness is what decides whether it can actually send one. Safety lives in the harness, not the model.
+## The harness
 
-## The loop is the work
+By itself a model only takes text in and gives text back. The harness is the code built around it — the part that can actually do things. It gives the model tools, keeps track of what has happened so far, and draws the lines it cannot cross. A model can write the sentence "send the email." Whether an email is ever sent is up to the harness. When people ask what an AI is capable of, the harness is what they are really asking about.
 
-Real work is rarely one step. The system reads the goal, makes a plan, uses a tool, checks the result, and goes again, until the job is done or it hits a limit you set. That cycle, repeated, is what people mean by an **agent**.
+## The loop
 
-## Prompting is the steering
+Most real work takes more than one move. So the system runs in a loop: look at the goal, choose a step, take it, see what happened, then go again — until the work is finished or it reaches a limit someone set. A model running in a loop with tools is what people are calling an agent. The word carries more drama than the thing deserves. This is the thing.
 
-Prompting is how you tell the system what good looks like, in plain language. Clear instructions, good examples, the right context: the same model, steered toward a far better answer. Most of the gap between a system that helps and one that frustrates lives here, not in the model.
+## Prompting
 
-## Why this matters
+Prompting is telling the system, in ordinary language, what you want and what a good result looks like. The instructions you give, the examples you show, the context you bother to include — these take the same model from a flat answer to a sharp one. Much of the difference between AI that helps and AI that wastes your time is settled right here, in how you ask.
 
-Once you can see the four parts, the questions get practical. What is the model good at? What can the harness touch? Where does a human stay in the loop? How is it steered? Those are engineering questions with real answers. That is the whole point of a field guide.
+## Why it's worth knowing
+
+Once these four are separate in your head, the useful questions show up on their own. What is this particular model good at? What has its harness been allowed to touch? Where does a person stay in the loop? How is it being asked? You can answer every one of those without any math. You only have to know which part you are talking about.

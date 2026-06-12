@@ -31,24 +31,24 @@ faq:
       or trusting a demo. The bill for that arrives later, and it is bigger than
       an afternoon of learning.
 date: '2026-06-11'
-updated: '2026-06-11'
+updated: '2026-06-12'
 status: published
 ---
 
-The people making the biggest decisions about AI often understand it the least. AI education closes that gap, in plain language, so the choices get made by people who get it.
+The people making the biggest decisions about AI are often the ones who understand it least. The point of teaching it plainly is to close that gap, so the calls get made by people who actually grasp what they're deciding on.
 
 ## The understanding gap
 
-AI is being bought, banned, and bet on by leaders who cannot quite say what it is. That is not a failing; the field is loud, jargon-heavy, and full of people selling things. But decisions made on hype age badly, and the bill comes later.
+A lot of AI is being bought, banned, and bet on by leaders who couldn't quite tell you what it is. That's understandable. The field is loud, thick with jargon, and full of people whose job is to sell you something. But a decision built on a hazy picture tends to look worse a year on, when the consequences arrive and the picture turns out to have been wrong.
 
 ## Why plain language wins
 
-You do not need the math to make good calls. You need an accurate mental model: what these systems can and cannot do, where they fail, and where a human has to stay in the loop. Said plainly, that fits in an afternoon and pays off for years.
+You don't need the math to make good decisions about AI. You need an accurate picture of it: what these systems can and can't do, the ways they tend to fail, and the places a person has to stay involved. That picture can be laid out clearly in an afternoon, and once you hold it, it keeps paying off long after.
 
-## What is worth teaching
+## What's worth teaching
 
-How the systems actually work, what "agent" really means, what it costs to run, where the real risks are, and how to keep control. Less "the future of everything," more "here is the machine, here are its parts."
+The useful things are concrete. How the systems actually work. What people mean when they say agent. What it costs to run. Where the genuine risks are, as opposed to the imagined ones. How to keep control of something once you've deployed it. Less about the future of everything, more about the machine in front of you and the parts it's made of.
 
 ## The payoff
 
-Teams that understand AI make calmer, better decisions. They buy the right things, sidestep the obvious traps, and can tell a real capability from a demo. That clarity is the whole product.
+People who understand AI make calmer decisions about it. They buy things that fit the problem, walk past the traps that catch everyone else, and can usually tell a real capability from a good demo. That kind of clear-headedness is hard to sell and easy to feel, and it's most of what this is for.
