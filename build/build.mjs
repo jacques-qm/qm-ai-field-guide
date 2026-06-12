@@ -258,8 +258,10 @@ ${CSS}
   .page{max-width:760px;margin:0 auto;padding:88px 28px 64px;}
   h1{font-size:clamp(34px,6vw,52px);line-height:1.04;font-weight:700;letter-spacing:-0.015em;}
   .intro{margin-top:16px;font-size:17px;line-height:1.55;color:var(--ink-soft);max-width:58ch;}
-  .download{margin-top:18px;font-family:var(--mono);font-size:12.5px;}
-  .download a{color:var(--green);text-decoration:none;border-bottom:1px solid rgba(13,122,79,.3);}
+  .gh{margin-top:18px;display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:12.5px;color:var(--ink-soft);text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 15px;transition:all .15s ease;}
+  .gh:hover{border-color:var(--ink-faint);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.05);}
+  .gh svg{flex-shrink:0;color:var(--ink);}
+  .gh .star{color:var(--amber);}
   .toggle{position:sticky;top:3.25rem;z-index:500;margin:30px 0 4px;padding:14px 0;background:linear-gradient(var(--paper) 70%,rgba(252,252,250,0));display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
   .toggle-label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
   .segs{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff;}
@@ -291,7 +293,7 @@ ${HEADER}
 <div class="page">
   <h1>AI Field Guide</h1>
   <p class="intro">${esc(guide.intro || '')}</p>
-  <p class="download"><a href="/field-guide/quiet-machine-field-guide.zip">&darr; download the whole guide</a></p>
+  <a class="gh" href="https://github.com/jacques-qm/qm-ai-field-guide" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span>open source on github — <span class="star">&#9733;</span> star it, that's how a quiet studio gets credit</span></a>
 
   <div class="toggle">
     <span class="toggle-label">read at</span>
